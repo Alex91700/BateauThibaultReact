@@ -11,7 +11,6 @@ import St_Jacques from './screens/St_Jacques';
 import Tourteau from './screens/Tourteau';
 import Vue4 from './screens/Vue4';
 
-
 const Stack = createStackNavigator();
 
 export default class App extends React.Component {
