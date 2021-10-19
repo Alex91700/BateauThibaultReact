@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ThemeContext } from './ThemeContext';
 import Home from './screens/Home';
+import Vue2 from './screens/Vue2';
 import Bar from './screens/Bar';
 import Homard from './screens/Homard';
 import St_Jacques from './screens/St_Jacques';
@@ -45,9 +46,13 @@ export default class App extends React.Component {
                 name="Tourteau"
                 component={Tourteau}
               />
-                 <Stack.Screen 
+              <Stack.Screen 
                 name="Vue4"
                 component={Vue4}
+              />
+              <Stack.Screen
+                name ="Vue2"
+                component={Vue2}
               />
           </Stack.Navigator>
         </NavigationContainer>
