@@ -5,6 +5,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { ThemeContext } from './ThemeContext';
 import Home from './screens/Home';
 import Vue2 from './screens/Vue2';
+import Vue20 from './screens/Vue20';
+import Vue21 from './screens/Vue21';
+import Vue22 from './screens/Vue22';
+import Vue23 from './screens/Vue23';
 import Bar from './screens/Bar';
 import Homard from './screens/Homard';
 import St_Jacques from './screens/St_Jacques';
@@ -52,6 +56,22 @@ export default class App extends React.Component {
               <Stack.Screen
                 name ="Vue2"
                 component={Vue2}
+              />
+              <Stack.Screen
+                name = "Vue20"
+                component = {Vue20}
+              />
+              <Stack.Screen
+                name = "Vue21"
+                component = {Vue21}
+              />
+              <Stack.Screen
+                name = "Vue22"
+                component = {Vue22}
+              />
+              <Stack.Screen
+                name = "Vue23"
+                component = {Vue23}
               />
           </Stack.Navigator>
         </NavigationContainer>

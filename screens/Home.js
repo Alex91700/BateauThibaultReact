@@ -7,7 +7,7 @@ class Home extends React.Component {
   render(){
     return (
       <View style={styles.container}>
-        <ImageBackground source={require('../assets/background.png')} style={styles.backgroundStyle} >
+        <ImageBackground source={require('../assets/background@2x.png')} style={styles.backgroundStyle} >
           <Button title="Produits et promotions"
             onPress={()=>this.props.navigation.navigate('Vue5')}>
           </Button>
@@ -40,12 +40,14 @@ export default Home;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 3,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   backgroundStyle: {
+    width: '100%',
+    height: '100%',
     flex: 1
   }
 });
