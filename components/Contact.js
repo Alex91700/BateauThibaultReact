@@ -7,11 +7,11 @@ class Contact extends React.Component {
         return(
             <View>
                 <Text style={styles.contactStyle}>
-                        Toutes les eaux mènent à Thibault
-                        06 63 99 99 78
-                        lebateaudethibault@gmail.com
-                        www.facebook.com/lebateaudethibault
-                    </Text>
+                    Toutes les eaux mènent à Thibault
+                    06 63 99 99 78
+                    lebateaudethibault@gmail.com
+                    www.facebook.com/lebateaudethibault
+                </Text>
             </View>
         )
     }

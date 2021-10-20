@@ -15,6 +15,7 @@ import Homard from './screens/Homard';
 import St_Jacques from './screens/St_Jacques';
 import Tourteau from './screens/Tourteau';
 import Vue4 from './screens/Vue4';
+import Contact from './components/Contact';
 
 const Stack = createStackNavigator();
 
@@ -77,6 +78,10 @@ export default class App extends React.Component {
               <Stack.Screen
                 name="Vue1"
                 component={Vue1}
+              />
+              <Stack.Screen
+                name="Contact"
+                component={Contact}
               />
               
           </Stack.Navigator>

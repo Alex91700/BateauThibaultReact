@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { ThemeContext } from '../ThemeContext';
+import Contact from "../components/Contact";
 
 
 class Vue20 extends React.Component {
@@ -11,6 +12,7 @@ class Vue20 extends React.Component {
                 <ImageBackground source={require('../assets/background@2x.png')} style={styles.backgroundStyle} >
                     <Text style={styles.Text}>AQUILON</Text>
                     <Image source={require('../assets/aquilon.png')} style={styles.imageStyle}/>
+                    <Contact/>
                 </ImageBackground>
             </View>
         );

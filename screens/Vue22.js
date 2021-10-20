@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
+import Contact from "../components/Contact";
 import { ThemeContext } from '../ThemeContext';
 
 class Vue22 extends React.Component {
@@ -10,6 +11,7 @@ class Vue22 extends React.Component {
                 <ImageBackground source={require('../assets/background@2x.png')} style={styles.backgroundStyle} >
                     <Text style={styles.Text}>GAST MICHER</Text>
                     <Image source={require('../assets/gastMicher.png')} style={styles.imageStyle}/>
+                    <Contact/>
                 </ImageBackground>
             </View>
         );
