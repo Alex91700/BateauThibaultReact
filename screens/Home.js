@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { Button, StyleSheet, View, ImageBackground } from 'react-native';
 import { ThemeContext } from '../ThemeContext';
 
 class Home extends React.Component {
