@@ -2,6 +2,7 @@ import React from "react";
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { ThemeContext } from '../ThemeContext';
 
+
 class Vue20 extends React.Component {
     
     render() {
