@@ -9,11 +9,11 @@ import Vue20 from './screens/Vue20';
 import Vue21 from './screens/Vue21';
 import Vue22 from './screens/Vue22';
 import Vue23 from './screens/Vue23';
-import Bar from './screens/Bar';
-import Homard from './screens/Homard';
-import St_Jacques from './screens/St_Jacques';
-import Tourteau from './screens/Tourteau';
 import Vue4 from './screens/Vue4';
+import Vue40 from './screens/Vue40';
+import Vue41 from './screens/Vue41';
+import Vue42 from './screens/Vue42';  
+import Vue43 from './screens/Vue43';
 
 const Stack = createStackNavigator();
 
@@ -30,28 +30,28 @@ export default class App extends React.Component {
         <NavigationContainer>
           <Stack.Navigator>
               <Stack.Screen 
-                    name="Home"
-                    component={Home}
+                name="Home"
+                component={Home}
                   />
-                <Stack.Screen 
-                name="Bar"
-                component={Bar}
-              /> 
-              <Stack.Screen 
-                name="Homard"
-                component={Homard}
-              />
-              <Stack.Screen 
-                name="St_Jacques"
-                component={St_Jacques}
-              />
-              <Stack.Screen 
-                name="Tourteau"
-                component={Tourteau}
-              />
-              <Stack.Screen 
+               <Stack.Screen 
                 name="Vue4"
                 component={Vue4}
+              />
+              <Stack.Screen 
+                name="Vue40"
+                component={Vue40}
+              />
+              <Stack.Screen 
+                name="Vue41"
+                component={Vue41}
+              />
+              <Stack.Screen 
+                name="Vue42"
+                component={Vue42}
+              />
+                 <Stack.Screen 
+                name="Vue43"
+                component={Vue43}
               />
               <Stack.Screen
                 name ="Vue2"
