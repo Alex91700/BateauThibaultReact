@@ -12,7 +12,7 @@ class Home extends React.Component {
             onPress={()=>this.props.navigation.navigate('Vue5')}>
           </Button>
 
-          <Button title="Bateaux"
+          <Button title="Nos bateaux partenaires !"
             onPress={()=>this.props.navigation.navigate('Vue2')}>
           </Button>
 

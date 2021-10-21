@@ -4,16 +4,21 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ThemeContext } from './ThemeContext';
 import Home from './screens/Home';
+import Vue1 from './screens/Vue1';
 import Vue2 from './screens/Vue2';
 import Vue20 from './screens/Vue20';
 import Vue21 from './screens/Vue21';
 import Vue22 from './screens/Vue22';
 import Vue23 from './screens/Vue23';
 import Vue4 from './screens/Vue4';
+
+import Contact from './components/Contact';
+
 import Vue40 from './screens/Vue40';
 import Vue41 from './screens/Vue41';
 import Vue42 from './screens/Vue42';  
 import Vue43 from './screens/Vue43';
+
 
 const Stack = createStackNavigator();
 
@@ -73,6 +78,15 @@ export default class App extends React.Component {
                 name = "Vue23"
                 component = {Vue23}
               />
+              <Stack.Screen
+                name="Vue1"
+                component={Vue1}
+              />
+              <Stack.Screen
+                name="Contact"
+                component={Contact}
+              />
+              
           </Stack.Navigator>
         </NavigationContainer>
       </ThemeContext.Provider>
