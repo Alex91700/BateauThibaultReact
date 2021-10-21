@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View , ImageBackground} from 'react-native';
+import { Button, StyleSheet, Text, View , ImageBackground, Image} from 'react-native';
 import { ThemeContext } from '../ThemeContext';
+import Contact from '../components/Contact'
 
 class Vue40 extends React.Component {
   
@@ -8,8 +9,10 @@ class Vue40 extends React.Component {
     return (
       <View style={styles.container}>
         <ImageBackground source={require('../assets/background@2x.png')} style={styles.backgroundStyle} >
-          <Text>Homard en chaud froid</Text>
-          </ImageBackground>
+          <Text style={styles.textStyle}>Homard en chaud froid</Text>
+          <Image source={require('../assets/homardImage.png')} style={styles.imageStyle}/>
+          <Contact/>
+        </ImageBackground>
       </View>
     );
   }
@@ -26,11 +29,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textStyle: {
+    textAlign: 'center',
+    fontSize: '180%',
+    color: 'white'
+  },
   backgroundStyle: {
     width: '100%',
     height: '100%',
     flex: 1
   }, scrollContainer: {
     flex: 1,
+  },
+  imageStyle: {
+    alignSelf: "center",
+    marginTop: "5%",
+    width: '50%',
+    height: '40%'
   },
 });
