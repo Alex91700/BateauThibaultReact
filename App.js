@@ -18,6 +18,12 @@ import Vue40 from './screens/Vue40';
 import Vue41 from './screens/Vue41';
 import Vue42 from './screens/Vue42';  
 import Vue43 from './screens/Vue43';
+import Vue5 from './screens/Vue5';
+import Vue50 from './screens/Vue50';
+import Vue51 from './screens/Vue51';
+import Vue52 from './screens/Vue52';
+import Vue53 from './screens/Vue53';
+import Vue54 from './screens/Vue54';
 
 
 const Stack = createStackNavigator();
@@ -86,7 +92,30 @@ export default class App extends React.Component {
                 name="Contact"
                 component={Contact}
               />
-              
+              <Stack.Screen
+                name="Vue5"
+                component={Vue5}
+              />
+              <Stack.Screen
+                name="Vue50"
+                component={Vue50}
+              />
+              <Stack.Screen
+                name="Vue51"
+                component={Vue51}
+              />
+              <Stack.Screen
+                name="Vue52"
+                component={Vue52}
+              />
+              <Stack.Screen
+                name="Vue53"
+                component={Vue53}
+              />
+              <Stack.Screen
+                name="Vue54"
+                component={Vue54}
+              />
           </Stack.Navigator>
         </NavigationContainer>
       </ThemeContext.Provider>
