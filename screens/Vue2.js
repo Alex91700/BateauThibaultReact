@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, StyleSheet, Text, TextInput, View, ImageBackground } from 'react-native';
+import { Button, StyleSheet, Text, TextInput, View, ImageBackground, Image } from 'react-native';
+import Contact from "../components/Contact";
 import { ThemeContext } from '../ThemeContext';
 
 class Vue2 extends React.Component {
@@ -8,6 +9,7 @@ class Vue2 extends React.Component {
         return(
             <View style={styles.container}>
                 <ImageBackground source={require('../assets/background@2x.png')} style={styles.backgroundStyle} >
+                    <Image source={require('../assets/ancre.png')} style ={styles.imageStyle}/>
                     <Button title="Aquilon" onPress={()=>{this.props.navigation.navigate('Vue20')}}>
                     </Button>
                     <Button title="De la Brise" onPress={()=>{this.props.navigation.navigate('Vue21')}}>
@@ -16,6 +18,7 @@ class Vue2 extends React.Component {
                     </Button>
                     <Button title="Saphir" onPress={()=>{this.props.navigation.navigate('Vue23')}}>
                     </Button>
+                    <Contact/>
                 </ImageBackground>
             </View>
         )
@@ -36,5 +39,11 @@ const styles = StyleSheet.create({
       flex: 1,
       width: '100%',
       height: '100%'
+    },
+    imageStyle: {
+        alignSelf: "center",
+        margin: '10px',
+        width: '50px',
+        height: '50px'
     }
   });

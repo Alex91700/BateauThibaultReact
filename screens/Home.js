@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, StyleSheet, View, ImageBackground } from 'react-native';
 import { ThemeContext } from '../ThemeContext';
+import Contact from '../components/Contact';
 
 class Home extends React.Component {
   
@@ -27,6 +28,7 @@ class Home extends React.Component {
           <Button title="Contact"
             onPress={()=>this.props.navigation.navigate('Vue1')}>
           </Button>
+          <Contact/>
         </ImageBackground>  
       </View>
       
