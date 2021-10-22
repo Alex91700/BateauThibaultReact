@@ -10,6 +10,8 @@ class Vue54 extends React.Component {
         return(
             <View>
 
+               hello
+
             </View>
         )
     }

@@ -10,6 +10,12 @@ import Vue20 from './screens/Vue20';
 import Vue21 from './screens/Vue21';
 import Vue22 from './screens/Vue22';
 import Vue23 from './screens/Vue23';
+import Vue3 from './screens/Vue3';
+import Vue30 from './screens/Vue30';
+import Vue31 from './screens/Vue31';
+import Vue32 from './screens/Vue32';
+import Vue33 from './screens/Vue33';
+import Vue34 from './screens/Vue34';
 import Vue4 from './screens/Vue4';
 
 import Contact from './components/Contact';
@@ -115,6 +121,30 @@ export default class App extends React.Component {
               <Stack.Screen
                 name="Vue54"
                 component={Vue54}
+              />
+              <Stack.Screen
+                name="Vue3"
+                component={Vue3}
+              />
+              <Stack.Screen
+                name="Vue30"
+                component={Vue30}
+              />
+              <Stack.Screen
+                name="Vue31"
+                component={Vue31}
+              />
+              <Stack.Screen
+                name="Vue32"
+                component={Vue32}
+              />
+              <Stack.Screen
+                name="Vue33"
+                component={Vue33}
+              />
+              <Stack.Screen
+                name="Vue34"
+                component={Vue34}
               />
           </Stack.Navigator>
         </NavigationContainer>
