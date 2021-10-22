@@ -13,15 +13,15 @@ class Vue5 extends React.Component {
                     </Button>
 
                     <Button title="Coquillages"
-                        onPress={()=>this.props.navigation.navigate('Home')}>
+                        onPress={()=>this.props.navigation.navigate('Vue51')}>
                     </Button>
 
                     <Button title="Crustacés"
-                        onPress={()=>this.props.navigation.navigate('Home')}>
+                        onPress={()=>this.props.navigation.navigate('Vue52')}>
                     </Button>
 
                     <Button title="Promotions !"
-                        onPress={()=>this.props.navigation.navigate('Home')}>
+                        onPress={()=>this.props.navigation.navigate('Vue53')}>
                     </Button>
                 </ImageBackground>
             </View>
